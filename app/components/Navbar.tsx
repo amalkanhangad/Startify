@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-      Navbar
-    </div>
+    <header className="px-5 py-3 bg-white shadow-sm font-work-sans">
+      <nav className="flex justify-between tems center"></nav>
+    </header>
   )
 }
 
