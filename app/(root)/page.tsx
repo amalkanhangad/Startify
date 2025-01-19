@@ -7,7 +7,7 @@ export default async function Home({searchParams}:{
 
     const posts = [
       {
-        _createdAt: 'Yesterday',
+        _createdAt: new Date(),
         views: 22,
         author :{_id:1},
         description:"This is a description",

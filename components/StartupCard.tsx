@@ -1,6 +1,6 @@
 import React from 'react'
 
-const StartupCard = () => {
+const StartupCard = ({post}:{post: Startup}) => {
   return (
     <div>
       Startupcard
